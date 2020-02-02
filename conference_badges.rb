@@ -14,4 +14,3 @@ def assign_rooms(attendees)
   new_arr
 end
 
-  def badges_and_schedules
