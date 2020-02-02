@@ -8,8 +8,9 @@ end
 
 def assign_rooms(attendees)
   new_arr = []
-  attendees.each_with_index {|name, |}
-  
-  "Hello, #{name}! You'll be assigned to room "
+  attendees.each_with_index {|name, n|}
+  new_arr << "Hello, #{name}! You'll be assigned to room #{n+1}!"
 end
+new_arr
+
   
