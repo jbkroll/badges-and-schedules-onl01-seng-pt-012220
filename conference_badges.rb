@@ -6,7 +6,7 @@ def batch_badge_creator($FILENAMEs)
   names.map{ |name| batch_maker(name) }
 end
 
-def assign_rooms(attendees)
+def assign_rooms(speakers)
   new_arr = []
   attendees.each_with_index do |name, n|
     new_arr << "Hello, #{name}! You'll be assigned to room #{n+1}!"
